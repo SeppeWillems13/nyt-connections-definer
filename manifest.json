@@ -1,11 +1,12 @@
 {
   "manifest_version": 3,
   "name": "NYT Connections Word Definer",
-  "version": "1.0",
-  "description": "Select a word in the NYT Connections game and click the extension to see its definition.",
+  "version": "1.1",
+  "description": "Select a word in the NYT Connections game and click the extension to see its definition, or enable automatic definitions in settings.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "storage"
   ],
   "host_permissions": [
     "https://api.dictionaryapi.dev/*"
@@ -18,10 +19,19 @@
       "128": "icons/icon-128.png"
     }
   },
+  "options_ui": {
+    "page": "options.html"
+  },
   "content_scripts": [
     {
       "matches": ["*://www.nytimes.com/games/connections"],
       "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected-ui.css"],
+      "matches": ["*://www.nytimes.com/*"]
     }
   ],
   "browser_specific_settings": {

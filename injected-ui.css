@@ -1,0 +1,83 @@
+/* Styles for the definition popover injected into the page */
+#nyt-definer-popover {
+    position: absolute;
+    z-index: 10000;
+    width: 280px;
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'nyt-franklin', arial, helvetica, sans-serif;
+    color: #121212;
+    line-height: 1.4;
+    font-size: 16px;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+#nyt-definer-popover.nyt-definer-dark {
+    background-color: #23272f;
+    color: #f1f1f1;
+    border-color: #444;
+}
+#nyt-definer-popover.nyt-definer-dark .definer-header {
+    color: #f1f1f1;
+}
+#nyt-definer-popover.nyt-definer-dark .definer-phonetic {
+    color: #b0b0b0;
+}
+#nyt-definer-popover.nyt-definer-dark .definer-loading {
+    color: #b0b0b0;
+}
+#nyt-definer-popover.nyt-definer-dark .definer-close-btn {
+    color: #b0b0b0;
+}
+#nyt-definer-popover.nyt-definer-dark .definer-close-btn:hover {
+    color: #fff;
+}
+
+#nyt-definer-popover .definer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#nyt-definer-popover .definer-word {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+#nyt-definer-popover .definer-close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #767676;
+    padding: 0 5px;
+}
+#nyt-definer-popover .definer-close-btn:hover {
+    color: #121212;
+}
+
+#nyt-definer-popover .definer-phonetic {
+    font-style: italic;
+    color: #767676;
+    margin-bottom: 8px;
+}
+
+#nyt-definer-popover .definer-body {
+    font-size: 0.95em;
+}
+
+#nyt-definer-popover .definer-loading {
+    text-align: center;
+    padding: 20px;
+    color: #767676;
+}
