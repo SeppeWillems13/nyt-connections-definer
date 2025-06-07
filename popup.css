@@ -1,0 +1,70 @@
+/* General styling for the popup body */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 320px; /* Set a fixed width for the popup */
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Flex container for alignment */
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between definition items */
+}
+
+/* Styling for the loading text */
+#loading {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    padding: 20px 0;
+}
+
+/* Container for a single word's definition */
+.result-item {
+    border-left: 4px solid #5a93e6; /* Accent color */
+    padding-left: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Styling for the word itself */
+.word {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #2d3748;
+    text-transform: capitalize;
+}
+
+/* Styling for the phonetic spelling */
+.phonetic {
+    font-style: italic;
+    color: #718096;
+    margin-bottom: 8px;
+}
+
+/* Styling for the definition text */
+.definition {
+    font-size: 0.98em;
+    color: #4a5568;
+    line-height: 1.5;
+}
+
+/* Styling for the error message box */
+#error {
+    color: #d9534f;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none;
+}
