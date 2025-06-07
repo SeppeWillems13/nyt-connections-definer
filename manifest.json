@@ -34,9 +34,21 @@
       "matches": ["*://www.nytimes.com/*"]
     }
   ],
+  "background": {
+    "scripts": ["src/background.js"]
+  },
   "browser_specific_settings": {
     "gecko": {
       "id": "connections-definer@example.com"
+    }
+  },
+  "commands": {
+    "open-addon-popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Open the Definer popup with selected word(s)"
     }
   }
 }

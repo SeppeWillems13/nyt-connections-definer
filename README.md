@@ -1,12 +1,12 @@
 # NYT Connections Definer
 
-A browser extension that provides quick word definitions for the New York Times Connections game and similar web pages. Instantly see word meanings in a popover, with customizable settings for automatic display and popover position.
+A browser extension that provides quick word definitions for the New York Times Connections game and similar web pages. Instantly see word meanings in a popover, with a customizable popover position.
 
 ## Features
 - Instantly view definitions for words on the page
-- Toggle automatic definition display
 - Choose popover position (auto or top-right)
 - Simple, modern UI
+- Open the addon panel with a keyboard shortcut or right-click menu (see below)
 
 ## How It Works
 This extension uses the free [DictionaryAPI.dev](https://dictionaryapi.dev/) to fetch word definitions. No account or API key required.
@@ -21,8 +21,8 @@ This extension uses the free [DictionaryAPI.dev](https://dictionaryapi.dev/) to 
 
 ## Usage
 - Open the NYT Connections game or any supported page.
-- Click on a word to see its definition, or enable automatic definitions in the extension options.
-- Adjust settings in the options page as needed.
+- Use the extension icon, keyboard shortcut, or right-click menu to open the addon panel and see definitions for selected words.
+- Adjust popover position in the options page as needed.
 
 ## License
 MIT License
