@@ -12,7 +12,7 @@
     "https://api.dictionaryapi.dev/*"
   ],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "src/popup/popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",
       "48": "icons/icon-48.png",
@@ -20,17 +20,17 @@
     }
   },
   "options_ui": {
-    "page": "options.html"
+    "page": "src/options/options.html"
   },
   "content_scripts": [
     {
       "matches": ["*://www.nytimes.com/games/connections"],
-      "js": ["content.js"]
+      "js": ["src/content/content.js"]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["injected-ui.css"],
+      "resources": ["src/content/injected-ui.css"],
       "matches": ["*://www.nytimes.com/*"]
     }
   ],
