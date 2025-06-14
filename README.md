@@ -1,3 +1,6 @@
+Here's the updated README for the NYT Connections Definer project with the Mozilla Add-ons link added:
+
+
 # NYT Connections Definer
 
 A browser extension that provides quick word definitions for the New York Times Connections game and similar web pages. Instantly see word meanings in a popover, with a customizable popover position.
@@ -24,4 +27,8 @@ This extension uses the free [DictionaryAPI.dev](https://dictionaryapi.dev/) to 
 - Use the extension icon, keyboard shortcut, or right-click menu to open the addon panel and see definitions for selected words.
 - Adjust popover position in the options page as needed.
 
+## Firefox Add-on
+Get the extension directly from the Mozilla Add-ons store: [NYT Connections Word Definer](https://addons.mozilla.org/en-US/firefox/addon/nyt-connections-word-definer/)
+
 ## License
+MIT License
