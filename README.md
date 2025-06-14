@@ -1,28 +1,24 @@
-# NYT Connections Definer
+# Seppe Willems
 
-A browser extension that provides quick word definitions for the New York Times Connections game and similar web pages. Instantly see word meanings in a popover, with a customizable popover position.
+## About Me
+Welcome to my GitHub profile! I am Seppe Willems, a passionate software developer with a focus on Python programming. I enjoy working on innovative projects that enhance my skills and knowledge in software development.
 
-## Features
-- Instantly view definitions for words on the page
-- Choose popover position (auto or top-right)
-- Simple, modern UI
-- Open the addon panel with a keyboard shortcut or right-click menu (see below)
+## Projects
+Here are some of my highlighted projects:
 
-## How It Works
-This extension uses the free [DictionaryAPI.dev](https://dictionaryapi.dev/) to fetch word definitions. No account or API key required.
+### [st-2223-1-d-ee-SeppeWillems13](https://github.com/SeppeWillems13/st-2223-1-d-ee-SeppeWillems13)
+A comprehensive project showcasing my Python and software development skills.
 
-## Credits
-- Definitions provided by [Free Dictionary API](https://dictionaryapi.dev/)
+### [world-cup-goal-scorers-globe](https://github.com/SeppeWillems13/world-cup-goal-scorers-globe)
+A Python project that maps all World Cup goal scorers on a globe, combining my interests in sports and data visualization.
 
-## Installation
-1. Download or clone this repository.
-2. In Firefox, go to `about:debugging#/runtime/this-firefox`.
-3. Click "Load Temporary Add-on..." and select any file in this project folder (e.g., `manifest.json`).
+### [NYT Connections Definer](https://github.com/SeppeWillems13/nyt-connections-definer)
+A browser extension that provides quick word definitions for the New York Times Connections game and similar web pages. Features include instant word definitions in a customizable popover, a simple UI, and integration with the DictionaryAPI.dev for fetching definitions.
 
-## Usage
-- Open the NYT Connections game or any supported page.
-- Use the extension icon, keyboard shortcut, or right-click menu to open the addon panel and see definitions for selected words.
-- Adjust popover position in the options page as needed.
+## Skills
+- Python
+- C#
+- JavaScript
 
-## License
-MIT License
+## Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/seppe-willems-8b9015223/)
