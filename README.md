@@ -19,6 +19,7 @@ A browser extension that provides quick word definitions for the New York Times 
 - Python
 - C#
 - JavaScript
+- AL
 
 ## Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/seppe-willems-8b9015223/)
